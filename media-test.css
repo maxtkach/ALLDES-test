@@ -70,7 +70,7 @@
     margin-left: 2.5%;
     width: 500px;
   }
-  .txts-f{
+  .txts-f {
     margin-left: 69px;
   }
 }
@@ -92,10 +92,6 @@
   .st_text {
     padding-top: 215px;
     margin-left: 283px;
-  }
-  .stage {
-    width: 350px;
-    margin-left: 26%;
   }
   .stages2 {
     margin-left: 100px;
@@ -125,7 +121,17 @@
     width: 114%;
     height: 200px;
   }
-  .hamburger-menu{
+  .stages2 {
+    margin-top: 38px;
+    margin-left: 65px;
+    width: 900px;
+  }
+  .st_text {
+    margin-left: 200px;
+    width: 700px;
+    font-size: 55px;
+  }
+  .hamburger-menu {
     opacity: 1;
   }
   .section-second {
@@ -167,10 +173,6 @@
     margin-left: 391px;
     margin-top: -101px;
   }
-  .stage {
-    width: 428px !important;
-    margin-left: 8%;
-  }
   .cards {
     width: 168%;
   }
@@ -194,11 +196,36 @@
   .map-txt4 {
     padding-left: 0% !important;
   }
+  .stage {
+    margin-left: -28%;
+  }
 }
 
 @media (max-width: 426px) {
   .slider {
     width: 271%;
+  }
+  .stages2 {
+    margin-top: 38px;
+    margin-left: 65px;
+    width: 900px;
+  }
+  .st_text {
+    margin-left: 200px;
+    width: 700px;
+    font-size: 55px;
+  }
+  .dr2 {
+    font-size: 53px;
+  }
+  .dr3 {
+    font-size: 45px;
+  }
+  .navs-a {
+    margin-left: -532px;
+  }
+  .l-img {
+    margin-top: -24px;
   }
   .cards {
     width: 271%;
@@ -233,7 +260,66 @@
     margin-left: 66.5%;
     width: 599px;
   }
+  .dr1 {
+    margin-left: -12px;
+    width: 517px;
+    font-size: 31px;
+    margin-top: -63px;
+  }
+  .icons {
+    margin-left: -87px;
+    margin-top: -47px;
+  }
+  .card {
+    width: 405px !important;
+    margin-left: 31%;
+    margin-top: 7%;
+  }
+  .card-img-top {
+    width: 404px !important;
+    height: 373px;
+  }
+  .fa {
+    font-size: 33px !important;
+  }
+  .map__email-heading {
+    font-size: 2.5rem;
+  }
+  .form-control {
+    font-size: 2rem !important;
+  }
 
+  .map-txt {
+    font-size: 42px;
+    width: 700px;
+    padding-left: 26%;
+  }
+  .map-txt2 {
+    font-size: 51px;
+  }
+  .map-txt4 {
+    font-size: 42px;
+    margin-left: -90px;
+  }
+  .mp {
+    height: 1200px;
+  }
+  .map {
+    width: 872px;
+    margin-left: 44.5%;
+  }
+  .btn {
+    font-size: 2rem !important;
+  }
+  .map__email {
+    margin-top: 345px !important;
+    width: 872px;
+    margin-left: 44.5% !important;
+    height: 400px;
+  }
+  .stage {
+    margin-left: 17%;
+  }
 }
 
 @media (max-width: 375px) {
@@ -242,6 +328,7 @@
     width: 178%;
     height: 203px;
   }
+
   .section-second {
     width: 219%;
   }
@@ -260,26 +347,30 @@
     font-size: 45px !important;
   }
   .icons {
-    margin-left: 901px;
+    margin-left: -70px;
     margin-top: -92px;
   }
   .dr1 {
-    margin-left: -171px;
+    margin-left: 248px;
     width: 1000px;
     font-size: 43px;
-    margin-top: -34px;
+    margin-top: -128px;
+  }
+  .stages2 {
+    margin-left: 115px;
+    width: 900px;
   }
   .dr2 {
     font-size: 62px;
   }
-  .dr3{
+  .dr3 {
     font-size: 50px;
   }
-  .header{
+  .header {
     height: 130px !important;
   }
   .st_text {
-    margin-left: -81px;
+    margin-left: 158px;
     padding-top: 323px;
     font-size: 63px !important;
     width: 700px;
@@ -287,14 +378,34 @@
   .cards {
     width: 331%;
   }
+  .card {
+    width: 405px !important;
+    margin-left: 40%;
+    margin-top: 7%;
+  }
+  .wrkrs {
+    font-size: 5rem;
+  }
+  .card-img-top {
+    width: 404px !important;
+    height: 373px;
+  }
+  .card-title {
+    font-size: 44px;
+  }
   .mp {
     width: 327%;
+    height: 1200px;
   }
-  .stage{
-    font-size: 28px;
+  .map__email-heading {
+    font-size: 2.5rem;
   }
+  .form-control {
+    font-size: 2rem !important;
+  }
+
   .map-txt {
-    font-size: 34px;
+    font-size: 42px;
     width: 700px;
     padding-left: 26%;
   }
@@ -302,11 +413,13 @@
     font-size: 51px;
   }
   .map-txt4 {
-    font-size: 37px;
+    font-size: 42px;
     margin-left: -90px;
   }
   .l-img {
     margin-top: -14px;
+    width: 631px;
+    margin-left: -151px;
   }
   .sl {
     height: auto;
@@ -315,30 +428,60 @@
     width: 872px;
     margin-left: 44.5%;
   }
+  .btn {
+    font-size: 2rem !important;
+  }
   .map__email {
     margin-top: 345px !important;
     width: 872px;
     margin-left: 44.5% !important;
+    height: 400px;
   }
-  .stages2{
+  .stages2 {
     margin-top: 29px;
   }
- .card-text {
+  .card-text {
     font-size: 36px;
-  } 
+  }
+  .stage {
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 321px) {
   .slider {
     width: 330%;
   }
+  .icons {
+    margin-left: 16px;
+  }
   .cards {
     width: 331%;
+  }
+  .card {
+    margin-left: 12%;
   }
   .card-text {
     font-size: 33px;
   }
   .mp {
     width: 326%;
+  }
+  .l-img {
+    margin-top: -8px;
+    width: 479px;
+    margin-left: -125px;
+  }
+  .txts-f {
+    padding-left: 0%;
+    margin-left: 33px;
+  }
+  .stages2 {
+    margin-left: 21px;
+    width: 900px;
+    margin-top: -59px;
+  }
+  .map-txt {
+    padding-left: 24%;
   }
 }
