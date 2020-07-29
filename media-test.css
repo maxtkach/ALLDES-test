@@ -202,6 +202,10 @@
 }
 
 @media (max-width: 768px) {
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 80%;
+  }
   .section-first {
     margin-top: 15%;
     width: 114%;
@@ -460,6 +464,24 @@
 }
 
 @media (max-width: 426px) {
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 95%;
+    top: 3%;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 77%;
+  }
+  .menu__item {
+    font-size: 31px;
+  }
   .slider {
     width: 271%;
   }
@@ -585,6 +607,28 @@
     margin-top: 35%;
     width: 178%;
     height: 203px;
+  }
+
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 93%;
+    top: 6%;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 105%;
+    height: 4px;
+    background-color: #616161;
+    transition-duration: 0.25s;
   }
 
   .section-second {
