@@ -73,6 +73,18 @@
   .txts-f {
     margin-left: 69px;
   }
+  .section-first {
+    width: 80%;
+  }
+  .section-second {
+    width: 119%;
+  }
+  .second-name {
+    margin-left: 18%;
+  }
+  .main-name {
+    margin-left: 190px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -289,6 +301,20 @@
   .stage {
     margin-left: -28%;
   }
+  .section-second {
+    width: 157%;
+  }
+  .second-name {
+    font-size: 21px;
+  }
+  .main-name {
+    font-size: 3rem;
+  }
+  .names {
+    margin-left: 30%;
+    width: 100%;
+    margin-top: -41px;
+  }
 }
 
 @media (max-width: 710px) {
@@ -475,6 +501,37 @@
     cursor: pointer;
     z-index: 1000;
   }
+  .section-second {
+    width: 374%;
+  }
+  .section-first {
+    margin-top: 39%;
+  }
+  .second-name {
+    margin-left: 48%;
+    font-size: 3rem;
+    width: 2000px;
+  }
+  .names {
+    margin-top: -99px;
+  }
+  .back-link {
+    font-size: 3rem;
+    margin-top: 14px;
+  }
+  .name {
+    font-weight: 500;
+    font-size: 4rem;
+  }
+  .main-name {
+    margin-left: 502px;
+    width: 1000px;
+    font-size: 4rem;
+  }
+  .one-card {
+    width: 550px !important;
+    height: 260px;
+  }
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     left: 77%;
@@ -632,7 +689,20 @@
   }
 
   .section-second {
-    width: 219%;
+    width: 367%;
+    margin-top: 18px;
+  }
+  .names {
+    margin-top: -3px;
+  }
+  .second-name {
+    margin-left: 23%;
+  }
+  .all-cards {
+    margin-left: 9%;
+  }
+  .main-name {
+    margin-left: 285px;
   }
   .one-card {
     margin-right: 70px;
